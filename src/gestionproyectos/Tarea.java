@@ -7,3 +7,6 @@ public class Tarea {
         this.completada = false;
     }
 }
+public boolean isCompletada() {
+    return this.completada;
+}
