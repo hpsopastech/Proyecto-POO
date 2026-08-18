@@ -10,4 +10,7 @@ public class Mago extends Tarea {
     public void lanzarHechizo() {
         System.out.println("¡El mago lanza un hechizo!");
     }
+    public void escudoMagico() {
+        System.out.println("¡El mago crea un escudo mágico!");
+    }
 }
