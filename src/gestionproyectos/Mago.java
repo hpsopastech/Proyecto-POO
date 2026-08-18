@@ -7,4 +7,7 @@ public class Mago extends Tarea {
         this.inteligencia = inteligencia;
         this.mana = mana;
     }
+    public void lanzarHechizo() {
+        System.out.println("¡El mago lanza un hechizo!");
+    }
 }
