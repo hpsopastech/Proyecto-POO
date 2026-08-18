@@ -1,3 +1,4 @@
+// Esta Clase Es de un Arquero.
 public class Arquero extends Tarea {
     private int punteria;
     private int velocidad;
