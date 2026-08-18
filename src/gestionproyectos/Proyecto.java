@@ -15,14 +15,17 @@ public class Proyecto {
 
     public double calcularAvance() {
         int completadas = 0;
+
         for (Tarea t : this.tareas) {
             if (t.isCompletada()) {
                 completadas++;
             }
         }
+
         if (this.tareas.size() == 0) {
             return 0;
         }
+
         return (double) completadas / this.tareas.size() * 100;
     }
 }
